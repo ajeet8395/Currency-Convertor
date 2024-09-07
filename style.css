@@ -5,15 +5,23 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #dfdadc;
-  min-height: 100vh;
+  /* background-color: #dfdadc; */
+  background-image: url(/img/worldMap.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7176c647;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 450px;
   width: 100%;
   background-color: #fff;
   border-radius: 8px;
