@@ -6,7 +6,7 @@
 
 body {
   /* background-color: #dfdadc; */
-  background-image: url(/img/worldMap.png);
+  background-image: url(img/worldMap.png);  /*! here first i used (/) before img but on live site it not show than i used img/pic !*/ 
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;

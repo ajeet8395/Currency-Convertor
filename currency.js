@@ -1,4 +1,4 @@
-// API key from ExchangeRate-API
+//! API key from ExchangeRate-API
 const API_KEY = "abe1c52118069e17838876e5";
 
 // Selecting elements
@@ -24,7 +24,7 @@ for (let select of dropdowns) {
     select.append(newOption);
   }
   select.addEventListener("change", (evt) => {
-    updateFlag(evt.target); // target use for everytime when we change where it'll change.
+    updateFlag(evt.target); //! target use for everytime when we change and where it'll change.
   });
 }
 
@@ -62,7 +62,7 @@ const updateExchangeRate = async (e) => {
   const from = fromCurrency.value;
   const to = toCurrency.value;
 
-  // If amount is empty or less than 1, set it to 1
+  //! If amount is empty or less than 1, set it to 1
   amount = amount === "" || amount < 1 ? 1 : amount;
 
   // Fetch exchange rate
